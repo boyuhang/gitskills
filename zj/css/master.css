@@ -1,0 +1,514 @@
+/*黑色小三角*/
+.caret {
+display: inline-block;
+width: 0;
+height: 0;
+vertical-align: top;
+border-top: 10px solid #000000;
+border-right: 7px solid transparent;  /*透明*/
+border-left: 7px solid transparent;   /*透明*/
+content: "";
+}
+/*index部分的start*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #fff;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+color: #fff;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+color: #fff;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #fff;
+}
+nav {
+  background: -webkit-linear-gradient(#0870CA, #0fd2f8); /*Safari 5.1-6.0*/
+  background: -o-linear-gradient(#0870CA, #0fd2f8); /*Opera 11.1 - 12.0*/
+  background: -moz-linear-gradient(#0870CA, #0fd2f8); /*Firefox 3.6 - 15*/
+  background: linear-gradient(#0870CA, #0fd2f8);
+  background-color: #0870CA;
+  height: 90px;
+  width: 100%;
+}
+.bttn {
+    border-radius: 0.25em;
+    background-color: #3892f2; /* Green */
+    border: none;
+    color: white;
+    cursor:pointer;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+@media screen and (max-width:1330px) {
+  body {
+    width: 1300px;
+  }
+  .section2 {
+    left: 770px !important;
+    width: 517px !important;
+  }
+  .section2 table {
+    width: 513px !important;
+  }
+}
+.nav-logo {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+}
+.nav-r {
+  background: rgba(0,0,0,0.1);
+  float: right;
+  width: 280px;
+  height: 90px;
+}
+.nav-login {
+  position: relative;
+  top: 31px;
+  left: 40px;
+}
+.nav-r-r {
+  float: right;
+  display: inline-block;
+  width: 140px;
+}
+.nav-r-r:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+.nav-username {
+  position: relative;
+  color: #FFF;
+  left: 50px;
+  font: 400 20px/90px "AdobeInvisFont"
+}
+.nav-logout {
+  position: relative;
+  left: 30px;
+  top: 31px;
+}
+.nav-logout-font {
+  position: relative;
+  left: 40px;
+  color: #fff;
+  font: 400 20px/90px "AdobeInvisFont"
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #2198E0;
+  overflow: hidden;
+}
+.header-china {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  color: #FFF;
+  font: 400 20px/60px "AdobeInvisFont";
+  text-align: center;
+  background-color: #0CA7EA;
+}
+.header-overseas {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  color: #FFF;
+  font: 400 20px/60px "AdobeInvisFont";
+  text-align: center;
+}
+.header-query {
+  position: relative;
+  left: 60%;
+  color: #fff;
+  font: 300 20px/60px "AdobeInvisFont";
+}
+.header-input1 {
+  position: relative;
+  left: 60%;
+  top: -2px;
+  width: 15%;
+  height: 29px;
+  background: rgba(0,0,0,0.2);
+  border: 0;
+  border-radius: 20px;
+}
+.header-input2 {
+  position: relative;
+  left: 45.5%;
+  top: -2px;
+  width: 13%;
+  border: 0;
+  outline: none;
+  background: rgba(0,0,0,0);
+  color: #fff;
+  font-size: 15px;
+}
+.section1 {
+  width: 55%;
+  height: 400px;
+  background-color: #7ED0FE;
+  margin: 20px;
+  border-radius: 15px;
+
+}
+.section1-header {
+  position: relative;
+  font-size: 21px;
+  font-family: "AdobeInvisFont";
+  color: #fff;
+  left: 19px;
+  top: 3px;
+  display: inline-block;
+}
+.section1-hr {
+  color: #fff;
+  border-top: 0px;
+}
+.section1-map{
+  width: 100%;
+  height: 340px;
+}
+.section2 {
+  position: absolute;
+  top: 170px;
+  left: 58%;
+  width: 41%;
+  height: 700px;
+  background-color: #7ED0FE;
+  margin-right:20px;
+  border-radius: 15px;
+}
+.section2 table {
+  width: 100%;
+  color: #fff;
+  /*table-layout: fixed;*/
+  text-align: center;
+  vertical-align: middle;
+}
+.section2 table thead th{
+  font-size: 22px;
+}
+.section2 table tbody tr th {
+  border-top: solid 1px #ADDBF4;
+  border-left: solid 1px #ADDBF4;
+  font-size: 16px;
+  cursor: pointer;
+}
+.section2 table tbody tr:hover {
+  background-color: #2198E0;
+}
+.section2 tbody tr th:nth-child(1) {
+  border-left: 0 !important;
+}
+.section2 tbody tr:last-child th{
+  border-bottom: solid 1px #ADDBF4;
+}
+.section3 {
+  width: 55%;
+  height: 280px;
+  background-color: #7ED0FE;
+  margin: 20px;
+  border-radius: 15px;
+}
+.index-main {
+  width: 100%;
+  height: 80%;
+}
+/*index部分的end*/
+
+/*list部分的start*/
+.list-header-1 {
+  position: relative;
+  display: inline-block;
+  top: -12px;
+  left: 20px;
+}
+.list-header-2 {
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  left: 60px;
+}
+.list-header-span1 {
+  position: relative;
+  left: 64px;
+  color: #fff;
+  font: 400 21px/60px "AdobeInvisFont";
+}
+.list-header-span2 {
+  position: relative;
+  left: 124px;
+  color: #fff;
+  font: 400 20px/60px "AdobeInvisFont";
+}
+.list-header-span3 {
+  position: relative;
+  left: 124px;
+  color: #fff;
+  font: 400 18px/60px "AdobeInvisFont";
+}
+.list-header-span4 {
+  position: relative;
+  left: 144px;
+  color: #fff;
+  font: 400 20px/60px "AdobeInvisFont";
+}
+.list-header-span5 {
+  position: relative;
+  left: 144px;
+  color: #fff;
+  font: 400 18px/60px "AdobeInvisFont";
+}
+.list-header-query {
+  position: relative;
+  left: 28%;
+  color: #fff;
+  font: 300 20px/60px "AdobeInvisFont";
+}
+.list-header-input1 {
+  position: relative;
+  left: 28%;
+  top: -2px;
+  width: 15%;
+  height: 29px;
+  background: rgba(0,0,0,0.2);
+  border: 0;
+  border-radius: 20px;
+}
+.list-header-input2 {
+  position: relative;
+  left: 13.5%;
+  top: -2px;
+  width: 13%;
+  border: 0;
+  outline: none;
+  background: rgba(0,0,0,0);
+  color: #fff;
+  font-size: 15px;
+}
+.list-section-btn1 {
+  position: relative;
+  background-color: #2198E0;
+  opacity: 0.8;
+  height: 36px;
+  top: 26px;
+  left: 78.2%;
+}
+.list-section-btn1:hover {
+  opacity: 1;
+}
+.list-table {
+  position: relative;
+  top: 46px;
+  margin: auto;
+  width: 70%;
+  border: solid 1px #E4E4E4;
+}
+.list-table thead th {
+  height: 50px;
+  font: 400 24px/50px "AdobelnvisFont";
+  color: #2198E0;
+  border-left: solid 1px #E4E4E4;
+}
+.list-table thead th:nth-child(1) {
+  border-left: 0 !important;
+}
+.list-table tbody th {
+  height: 40px;
+  font: 400 20px/40px "AdobelnvisFont";
+  color: rgb(115,115,115);
+  cursor: pointer;
+  border-left: solid 1px #E4E4E4;
+  border-top: solid 1px #E4E4E4;
+}
+.list-table tbody tr:hover {
+  background-color: #96dafe;
+}
+.list-table tbody tr th:nth-child(1) {
+  border-left: 0 !important;
+}
+/*list部分的end*/
+
+
+/*details部分的start*/
+.details-section {
+  margin: 0;
+}
+.details-span1 {
+  position: relative;
+  left:20px;
+  top: 20px;
+  font: 400 22px/22px "AdobeInvisFont";
+  color: rgb(145, 145, 145);
+}
+.details-a1 {
+  position: relative;
+  left: 25px;
+  top: 20px;
+  font: 400 18px/22px "AdobeInvisFont";
+  color: rgb(33,152,224);
+}
+.details-hr1 {
+  padding: 0;
+  position: relative;
+  top: 20px;
+  width: 98%;
+  height: 0;
+  border-color: rgb(33,152,224);
+  opacity: 0.4;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.details-danyan {
+  position: relative;
+  top: 14px;
+  width: 50%;
+  height: 240px;
+  border-right:solid 1px rgba(33,152,224,0.4);
+}
+.details-span2 {
+  position: relative;
+  top: 20px;
+  left: 32px;
+  font: 400 20px/22px "AdobeInvisFont";
+  color: rgb(145, 145, 145);
+  display: inline-block;
+}
+.details-btnw {
+  position: relative;
+  width: 100px;
+  left: 84%;
+  top: 0px;
+}
+.details-btnw button {
+  color: rgb(145,145,145);
+  background-color: #fff;
+  border-radius: 4px;
+  border: solid 0.5px rgb(145,145,145);
+  cursor: pointer;
+}
+.details-btnw button:hover {
+  background-color: #5babdb;
+  color: #fff;
+  border-color: #5babdb;
+}
+
+.details-danyan-box3,
+.details-danyan-box2,
+.details-danyan-box1 {
+  float: left;
+  margin: 30px 0 0 30px;
+  height: 140px;
+  width: 28%;
+  cursor: pointer;
+  background-color: red;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.details-danyan-box3:hover,
+.details-danyan-box2:hover,
+.details-danyan-box1:hover {
+  height: 160px;
+  width: 30%;
+}
+.details-danyan-box1 {
+  background-color: rgb(144,192,233);
+}
+.details-danyan-box2 {
+  background-color: #88EDE5;
+}
+.details-danyan-box3 {
+  background-color: #EADA96;
+}
+.details-danyan-xbox {
+  height: 43px;
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.xbox1 {
+  background-color: #75ABDC;
+}
+.xbox2 {
+  background-color: #66D7CE;
+}
+.xbox3 {
+  background-color: #E3CD6D;
+}
+.details-caret1 {
+  border-top: solid 10px #75ABDC;
+  position: relative;
+  left: 46%;
+}
+.details-caret2 {
+  border-top: solid 10px #66D7CE;
+  position: relative;
+  left: 46%;
+}
+.details-caret3 {
+  border-top: solid 10px #E3CD6D;
+  position: relative;
+  left: 46%;
+}
+.details-box-span1 {
+  position: relative;
+  top: 10px;
+  left: 32%;
+  color: #fff;
+  font: 400 20px/20px "AdobelnvisFont";
+}
+.details-box-span11 {
+  position: relative;
+  top: 10px;
+  left: 11%;
+  color: #fff;
+  font: 400 20px/20px "AdobelnvisFont";
+}
+.details-box-span2 {
+  position: relative;
+  top: 40px;
+  left: 23%;
+  color: #fff;
+  font: 400 36px/20px "AdobeInvisFont";
+}
+.details-box-span22 {
+  position: relative;
+  top: 40px;
+  left: 28%;
+  color: #fff;
+  font: 400 36px/20px "AdobeInvisFont";
+}
+.details-cu {
+  float: right;
+  margin-top: -226px;
+  top: 226px;
+  left: 39%;
+  width: 50%;
+  height: 240px;
+}
+.details-line1 {
+  float: left;
+  margin-top: 14px;
+  width: 42%;
+  height: 380px;
+  margin-left: 50px;
+}
+.details-line2 {
+  float: left;
+  width: 42%;
+  height: 380px;
+  margin-left: 110px;
+}
+.details-line {
+  position: relative;
+  height: 80%;
+  width: 90%;
+  margin: 10px auto;
+}
+/*details部分的end*/
