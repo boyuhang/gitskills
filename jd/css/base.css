@@ -198,8 +198,90 @@ s, i, em {
 }
 
 
- /* site-nav部分start */
- /* site-nav部分end */
+ /* search部分start */
+ .search-logo {
+   width: 360px;
+   height: 60px;
+   padding: 20px 0;
+   float: left;
+ }
+ .search-logo a {
+   display: block;
+   width: 270px;
+   height: 60px;
+   text-indent: -999999px;
+   background: url(../images/logo.png)no-repeat;
+ }
+ .search-input {
+   height: 36px;
+   float: left;
+   padding-top: 25px;
+ }
+ .search-input input {
+   float: left;
+   width: 454px;
+   height: 32px;
+   padding-left: 4px;
+   font: 400 14px/32px "microsoft yahei";
+   color: rgb(153, 153, 153);
+   border: 2px solid #B61D1D;
+   border-right:0;
+ }
+ .search-input button {
+   width: 82px;
+   height: 36px;
+   color: #fff;
+   font: 400 16px/36px "微软雅黑";
+   background-color: #B61D1D;
+   cursor:pointer;
+ }
+
+ .search-car {
+   width: 96px;
+   height: 34px;
+   float: right;
+   line-height: 34px;
+   padding-left: 43px;
+   position: relative;
+   margin: 25px 65px 0 0;
+   border: 1px solid #DFDFDF;
+   background-color: #F9F9F9;
+ }
+ .icon1 {
+   position: absolute;
+   top: 9px;
+   left: 16px;
+   width:18px;
+   height: 16px;
+   background: url(../images/tel.png) no-repeat 0 -58px;
+ }
+ .icon2 {
+   position: absolute;
+   right:10px;
+   color: #999;
+   font-family: "SimSun";
+ }
+ .icon3 {
+   position: absolute;
+   top: -5px;
+   width: 16px;
+   height: 14px;
+   background-color: #C81623;
+   line-height: 14px;
+   text-align: center;
+   color: #fff;
+   border-radius: 7px 7px 7px 0;
+ }
+ .search-moreAlink {
+   width: 530px;
+   height: 28px;
+   float: left;
+   word-spacing: 6px;
+   line-height: 28px;
+   /* cursor: pointer; */
+ }
+
+ /* search部分end */
 
 
 
