@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <script src="js/echarts.js" charset="utf-8"></script>
+    <title>项目统计</title>
+  </head>
+  <body>
+      <div class="nav">
+        <ul>
+          <li><img src="css/images/首页.png"><a href="#">首页</a></li>
+          <li><img src="css/images/项目统计.png"><a href="#">项目统计</a></li>
+          <li><img src="css/images/测试配置.png"><a href="#">测试配置</a></li>
+          <li><img src="css/images/账号.png"><a href="#">账号管理</a></li>
+          <li><img src="css/images/测试报告.png"><a href="#">测试报告</a></li>
+          <li><img src="css/images/设备管理.png"><a href="#">设备管理</a></li>
+          <li><img src="css/images/簇优化1.png"><a href="#">簇优化</a></li>
+          <li><img src="css/images/系统管理.png"><a href="#">系统管理</a></li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="search">
+          <form action="">
+            <img src="css/images/logo.png" class="img1">
+            <input class="text" type="text" value="请输入...">
+            <input class="btn" type="button">
+          </form>
+        </div>
+        <div class="header-r">
+          <span>welcome!</span>
+          <span>Like LY</span>
+          <span>系统管理员</span>
+          <a href="#" class="header-r-r">
+            <img src="css/images/退出.png" class="header-logout">
+            <span class="header-logout-font">退出</span>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <li><a href="#">单验进度</a></li>
+        <li><a href="#">基站测试详情</a></li>
+        <li><a href="#">基站勘察</a></li>
+        <li><a href="#">项目设备</a></li>
+      </div>
+      <div class="content">
+        <input type="text" class="content-in1" value="项目名搜索"><img src="css/images/搜索.png">
+        <span class="content-span1">地域：</span>
+        <select class="content-se1">
+          <option>上海杨浦区</option>
+        </select>
+        <div class="form-group">
+          <label for="startDate" class="label1">时间：</label>
+          <input type="text" class="form-control" id="startDate" value="2018.08.16">
+        </div>
+        <p class="content-p1">&sim;</p>
+        <div class="form-group">
+          <input type="text" class="form-control" id="endDate" value="2018.08.16">
+        </div>
+        <input type="button" class="content-in2" value="查询">
+        <input type="button" class="content-in3" value="导出统计">
+        <div class="content-lf">
+          <span class="content-lf-span1">项目信息</span>
+          <div class="content-lf1">
+            <li>项目：新加坡项目</li>
+            <li>运营商：中国电信</li>
+            <li>预计工期：8个月</li>
+          </div>
+          <div class="content-lf2">
+            <li>项目负责人：黄佳</li>
+            <li>项目启动时间:2012.11.12</li>
+            <li>项目完结时间:2012.11.12</li>
+          </div>
+        </div>
+        <div class="content-mid">
+          <span class="content-mid-span1">基站测试</span>
+          <div class="content-mid1">
+            <table class="table1">
+              <tr>
+                <th>通过基站</th><th>未通过基站</th><th>通过率</th>
+              </tr>
+              <tr>
+                <td>620</td><td>420</td><td>80%</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="content-rt">
+          <span class="content-rt-span1">设备使用</span>
+          <table class="table2">
+            <tr>
+              <th><img src="css/images/上一个.png"></th><th>30台</th><th><img src="css/images/下一个.png"></th>
+            </tr>
+            <tr>
+              <td></td><td>手机</td><td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="bottom">
+        <span class="bottom-span1">单验统计</span>
+        <div class="form-group">
+          <label for="startDate" class="label2">时间：</label>
+          <input type="text" class="form-control" id="startDate1" value="2018.08.16">
+        </div>
+        <p class="content-p2">&sim;</p>
+        <div class="form-group">
+          <input type="text" class="form-control" id="endDate1" value="2018.08.16">
+        </div>
+        <input type="button" class="button-in1" value="查询">
+        <p class="bottom-p1">维度:</p>
+        <select class="bottom-se">
+          <option>站型</option>
+        </select>
+        <div class="bottom-lf" id="bottom-lf"></div>
+        <p class="bottom-p2">维度:</p>
+        <select class="bottom-se1">
+          <option>站型</option>
+        </select>
+        <div class="bottom-rt" id="bottom-rt"></div>
+      </div>
+      <script src="js/项目概括.js" charset="utf-8"></script>
+    </body>
+  </html>

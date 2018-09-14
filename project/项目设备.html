@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <title>项目统计</title>
+  </head>
+  <body>
+      <div class="nav">
+        <ul>
+          <li><img src="css/images/首页.png"><a href="#">首页</a></li>
+          <li><img src="css/images/项目统计.png"><a href="#">项目统计</a></li>
+          <li><img src="css/images/测试配置.png"><a href="#">测试配置</a></li>
+          <li><img src="css/images/账号.png"><a href="#">账号管理</a></li>
+          <li><img src="css/images/测试报告.png"><a href="#">测试报告</a></li>
+          <li><img src="css/images/设备管理.png"><a href="#">设备管理</a></li>
+          <li><img src="css/images/簇优化1.png"><a href="#">簇优化</a></li>
+          <li><img src="css/images/系统管理.png"><a href="#">系统管理</a></li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="search">
+          <form action="">
+            <img src="css/images/logo.png" class="img1">
+            <input class="text" type="text" value="请输入...">
+            <input class="btn" type="button">
+          </form>
+        </div>
+        <div class="header-r">
+          <span>welcome!</span>
+          <span>Like LY</span>
+          <span>系统管理员</span>
+          <a href="#" class="header-r-r">
+            <img src="css/images/退出.png" class="header-logout">
+            <span class="header-logout-font">退出</span>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <li><a href="#">单验进度</a></li>
+        <li><a href="#">基站测试详情</a></li>
+        <li><a href="#">基站勘察</a></li>
+        <li><a href="#">项目设备</a></li>
+      </div>
+      <div class="footer">
+        <span class="footer-span1">设备型号:</span>
+        <input type="text" class="footer-in1"/>
+        <span class="footer-span2">项目名:</span>
+        <input type="text" class="footer-in2"/>
+        <span class="footer-span3">出库时间:</span>
+        <input type="text" class="footer-in3"/>
+        <span class="footer-span4">设备类型:</span>
+        <input type="text" class="footer-in4"/>
+        <input class="footer-in11" type="button" value="查询"/>
+        <input class="footer-in12" type="button" value="入库"/>
+        <table style="width="100%" border="0" cellpadding="0" cellspacing="0"" class="table-s">
+          <thead class="thead-t">
+            <tr>
+              <th>序号</th><th>设备机型</th><th>数量</th><th>系统</th><th>负责人</th><th>是否授权</th><th>IMEI</th><th>MAC</th>
+              <th>所属公司</th><th>出库时间</th><th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td><td>suzhou-DL</td><td>用例</td><td>10</td><td>TEST河北沧</td>
+              <td>已授权</td><td>TEST河北沧</td><td>TEST河北沧</td><td></td><td></td><td><input type="button" class="btn1" value="报损"><input type="button" class="btn1" value="导出"></td>
+            </tr>
+            <tr>
+              <td>2</td><td>suzhou-DL</td><td>基站</td><td>21</td><td>TEST河北沧</td>
+              <td>未授权</td><td>TEST河北沧</td><td>TEST河北沧</td><td></td><td></td><td><input type="button" class="btn1" value="报损"><input type="button" class="btn1" value="导出"></td>
+            </tr>
+            <tr>
+              <td>3</td><td>suzhou-DL</td><td>基站</td><td>21</td><td>TEST河北沧</td>
+              <td>授权到期</td><td>TEST河北沧</td><td>TEST河北沧</td><td></td><td></td><td><input type="button" class="btn1" value="报损"><input type="button" class="btn1" value="导出"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </body>
+</html>

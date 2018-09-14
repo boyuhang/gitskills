@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <title>测试配置 </title>
+  </head>
+  <body>
+      <div class="nav">
+        <ul>
+          <li><img src="css/images/首页.png"><a href="#">首页</a></li>
+          <li><img src="css/images/项目统计.png"><a href="#">项目统计</a></li>
+          <li><img src="css/images/测试配置.png"><a href="#">测试配置</a></li>
+          <li><img src="css/images/账号.png"><a href="#">账号管理</a></li>
+          <li><img src="css/images/测试报告.png"><a href="#">测试报告</a></li>
+          <li><img src="css/images/设备管理.png"><a href="#">设备管理</a></li>
+          <li><img src="css/images/簇优化1.png"><a href="#">簇优化</a></li>
+          <li><img src="css/images/系统管理.png"><a href="#">系统管理</a></li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="search">
+          <form action="">
+            <img src="css/images/logo.png" class="img1">
+            <input class="text" type="text" value="请输入...">
+            <input class="btn" type="button">
+          </form>
+        </div>
+        <div class="header-r">
+          <span>welcome!</span>
+          <span>Like LY</span>
+          <span>系统管理员</span>
+          <a href="#" class="header-r-r">
+            <img src="css/images/退出.png" class="header-logout">
+            <span class="header-logout-font">退出</span>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <li><a href="#">FTP服务器</a></li>
+        <li><a href="#">报告模板导入</a></li>
+        <li><a href="#">测试用例</a></li>
+        <li><a href="#">基站测试设置</a></li>
+        <li><a href="#">Sihecker工参导入</a></li>
+        <li><a href="#">数据库管理</a></li>
+      </div>
+      <div class="footer">
+        <span class="footer-span1">数据库:</span>
+        <input type="text" class="footer-in1"/>
+        <span class="footer-span2">eNodeB:</span>
+        <input type="text" class="footer-in3"/>
+        <span class="footer-span3">ECI:</span>
+        <input type="text" class="footer-in-1"/>
+        <span class="footer-span-gong1">时间:</span>
+        <input type="text" class="footer-in-gong1"/>
+        <span class="footer-span-gong2">至</span>
+        <input type="text" class="footer-in-gong2"/>
+        <p class="footer-p-gong1">站型:</p>
+        <select class="footer-se-gong1">
+          <option>普通站型</option>
+        </select>
+        <input class="footer-in-gong3" type="button" value="查询"/>
+        <input class="footer-in-gong4" type="button" value="基站工参导入"/>
+        <table style="width="100%" border="0" cellpadding="0" cellspacing="0"" class="table-g">
+          <thead class="thead-r">
+            <tr>
+              <th>序号</th><th>配置名称</th><th>站型</th><th>报告模板名称</th>
+              <th>报告模板别名</th><th>报告模板种类</th><th>小区数</th><th>测试项</th><th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="tr1">
+              <td>1</td><td>suzhou-DL</td><td>宏站</td><td>移动宏站1</td><td>主报告</td>
+              <td>EXCEL</td><td>1-3</td>
+            </tr>
+            <tr>
+              <td>2</td><td>suzhou-DL</td><td>室分</td><td>移动宏站2</td><td>主报告</td>
+              <td>EXCEL</td><td>4-6</td>
+            </tr>
+            <tr>
+              <td></td><td>suzhou-DL</td><td>宏站</td><td>移动宏站3</td><td>主报告</td>
+              <td>EXCEL</td>
+            </tr>
+            <tr>
+              <td></td><td>suzhou-DL</td><td>宏站</td><td>移动宏站1</td><td>主报告</td>
+              <td>EXCEL</td><td>4-6</td>
+            </tr>
+            <tr>
+              <td></td><td>suzhou-DL</td><td>室分</td><td>移动宏站2</td><td>主报告</td>
+              <td>EXCEL</td><td>4-6</td>
+            </tr>
+            <tr>
+              <td></td><td>suzhou-DL</td><td>宏站</td><td>移动宏站3</td><td>主报告</td>
+              <td>EXCEL</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="box">
+        <div class="box-gc">
+          <p class="box-gc-p1">基站工参导入</p>
+          <input type="text" class="box-gc-input1">
+          <input type="button" value="浏览" class="box-gc-input2">
+          <select class="box-gc-se1">
+            <option></option>
+          </select>
+          <input type="radio" checked="checked" name="radio" class="box-gc-input3">
+          <span class="box-gc-span1">普通站型</span>
+          <input type="radio" checked="checked" name="radio" class="box-gc-input4">
+          <span class="box-gc-span1">高铁拉远站</span>
+          <button type="button" class="box-gc-btn1">保存</button>
+          <button type="button" class="box-gc-btn2">取消</button>
+        </div>
+      </div>
+  </body>
+</html>

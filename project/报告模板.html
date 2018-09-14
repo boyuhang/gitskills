@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <title>测试配置</title>
+  </head>
+  <body>
+      <div class="nav">
+        <ul>
+          <li><img src="css/images/首页.png"><a href="#">首页</a></li>
+          <li><img src="css/images/项目统计.png"><a href="#">项目统计</a></li>
+          <li><img src="css/images/测试配置.png"><a href="#">测试配置</a></li>
+          <li><img src="css/images/账号.png"><a href="#">账号管理</a></li>
+          <li><img src="css/images/测试报告.png"><a href="#">测试报告</a></li>
+          <li><img src="css/images/设备管理.png"><a href="#">设备管理</a></li>
+          <li><img src="css/images/簇优化1.png"><a href="#">簇优化</a></li>
+          <li><img src="css/images/系统管理.png"><a href="#">系统管理</a></li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="search">
+          <form action="">
+            <img src="css/images/logo.png" class="img1">
+            <input class="text" type="text" value="请输入...">
+            <input class="btn" type="button">
+          </form>
+        </div>
+        <div class="header-r">
+          <span>welcome!</span>
+          <span>Like LY</span>
+          <span>系统管理员</span>
+          <a href="#" class="header-r-r">
+            <img src="css/images/退出.png" class="header-logout">
+            <span class="header-logout-font">退出</span>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <li><a href="#">FTP服务器</a></li>
+        <li><a href="#">报告模板导入</a></li>
+        <li><a href="#">测试用例</a></li>
+        <li><a href="#">基站测试设置</a></li>
+        <li><a href="#">Sihecker工参导入</a></li>
+        <li><a href="#">数据库管理</a></li>
+      </div>
+      <div class="footer">
+        <span class="footer-span1">模板名称:</span>
+        <input type="text" class="footer-in1"/>
+        <span class="footer-span2">文件名:</span>
+        <input type="text" class="footer-in3"/>
+        <span class="footer-span3">更新时间:</span>
+        <input type="text" class="footer-in-1"/>
+        <p class="footer-p-1">至</p>
+        <input type="text" class="footer-in-2"/>
+        <input class="footer-in-3" type="button" value="查询"/>
+        <input class="footer-in-4" type="button" value="新增"/>
+        <table style="width="100%" border="0" cellpadding="0" cellspacing="0"">
+          <thead class="thead-t">
+            <tr>
+              <th>序号</th><th>模板名称</th><th>模板类型</th><th>模板别名</th><th>基站类型</th><th>数据导入</th>
+              <th>使用小区</th><th>更新时间</th><th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="tr1">
+              <td>1</td><td>suzhou-DL</td><td>用例</td><td>主报告</td><td>宏站</td>
+              <td>/nsn-ftp/nsn-ftp/UL</td><td>1-3</td><td>2017/09/08 11:40:11</td><td class="tr-td1"><img src="css/images/Excel.png"><img src="css/images/修改.png"><img src="css/images/删除.png"></td>
+            </tr>
+            <tr>
+              <td>2</td><td>suzhou-DL</td><td>基站</td><td>21</td><td>zte</td>
+              <td>/nsn-ftp/nsn-ftp/UL</td><td>1-3</td><td>2017/09/08 11:40:11</td><td class="tr-td1"><img src="css/images/Excel.png"><img src="css/images/修改.png"><img src="css/images/删除.png"></td>
+            </tr>
+            <tr>
+              <td>3</td><td>suzhou-DL</td><td>基站</td><td>21</td><td>zte</td>
+              <td>/nsn-ftp/nsn-ftp/UL</td><td>1-3</td><td>2017/09/08 11:40:11</td><td class="tr-td1"><img src="css/images/Excel.png"><img src="css/images/修改.png"><img src="css/images/删除.png"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="box">
+        <div class="box-bg">
+          <p class="box-gc-p1">新增报告模板</p>
+          <span class="box-bg-span1">模板名称:</span>
+          <input type="text" class="box-bg-input1">
+          <span class="box-bg-span2">模板类型:</span>
+          <input type="radio" name="radio" class="box-bg-input2">
+          <span class="box-bg-span3">基站</span>
+          <input type="radio" name="radio" class="box-bg-input2">
+          <span class="box-bg-span3">用例</span>
+          <span class="box-bg-span4">模板别名:</span>
+          <input type="text" class="box-bg-input3">
+          <p class="box-bg-p2">*模板别名只能是英文，中文，数字</p>
+          <span class="box-bg-span5">Excel/Word:</span>
+          <input type="radio" name="radio1" class="box-bg-input4">
+          <span class="box-bg-span6">Excel</span>
+          <input type="radio" name="radio1" class="box-bg-input4">
+          <span class="box-bg-span6">Word</span>
+          <span class="box-bg-span7">基站类型:</span>
+          <input type="text" value=" 宏站" class="box-bg-input5">
+          <span class="box-bg-span8">适用小区数:</span>
+          <input type="text" class="box-bg-input6">
+          <p class="box-bg-p3">&sim;</p>
+          <input type="text" class="box-bg-input7">
+          <span class="box-bg-span9">数据导入:</span>
+          <input type="text" class="box-bg-input8">
+          <input type="button" value="浏览" class="box-bg-input9">
+          <button type="button" class="box-bg-btn1">保存</button>
+          <button type="button" class="box-bg-btn2">取消</button>
+          <div class="box-bg-yl">
+            <input type="button" value="报告模板样例" class="box-bg-yl-input1">
+            <img src="css/images/报告1.png" class="box-bg-yl-img1">
+            <span class="box-bg-yl-span1">报告模板1</span>
+            <input type="button" value="下载" class="box-bg-yl-btn1">
+            <img src="css/images/报告1.png" class="box-bg-yl-img1">
+            <span class="box-bg-yl-span1">报告模板2</span>
+            <input type="button" value="下载" class="box-bg-yl-btn1">
+            <img src="css/images/报告2.png" class="box-bg-yl-img2">
+            <span class="box-bg-yl-span2">报告模板1</span>
+            <input type="button" value="下载" class="box-bg-yl-btn2">
+            <img src="css/images/报告2.png" class="box-bg-yl-img2">
+            <span class="box-bg-yl-span2">报告模板2</span>
+            <input type="button" value="下载" class="box-bg-yl-btn2">
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

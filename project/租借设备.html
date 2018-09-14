@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <title>项目统计</title>
+  </head>
+  <body>
+      <div class="nav">
+        <ul>
+          <li><img src="css/images/首页.png"><a href="#">首页</a></li>
+          <li><img src="css/images/项目统计.png"><a href="#">项目统计</a></li>
+          <li><img src="css/images/测试配置.png"><a href="#">测试配置</a></li>
+          <li><img src="css/images/账号.png"><a href="#">账号管理</a></li>
+          <li><img src="css/images/测试报告.png"><a href="#">测试报告</a></li>
+          <li><img src="css/images/设备管理.png"><a href="#">设备管理</a></li>
+          <li><img src="css/images/簇优化1.png"><a href="#">簇优化</a></li>
+          <li><img src="css/images/系统管理.png"><a href="#">系统管理</a></li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="search">
+          <form action="">
+            <img src="css/images/logo.png" class="img1">
+            <input class="text" type="text" value="请输入...">
+            <input class="btn" type="button">
+          </form>
+        </div>
+        <div class="header-r">
+          <span>welcome!</span>
+          <span>Like LY</span>
+          <span>系统管理员</span>
+          <a href="#" class="header-r-r">
+            <img src="css/images/退出.png" class="header-logout">
+            <span class="header-logout-font">退出</span>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <li><a href="#">出库设备</a></li>
+        <li><a href="#">设备库存</a></li>
+        <li><a href="#">故障设备</a></li>
+        <li><a href="#">租借设备</a></li>
+        <li><a href="#">设备授权信息</a></li>
+        <li><a href="#">软件下载</a></li>
+      </div>
+      <div class="footer">
+        <span class="footer-span1">设备型号:</span>
+        <input type="text" class="footer-in1"/>
+        <span class="footer-span2">项目名:</span>
+        <input type="text" class="footer-in2"/>
+        <span class="footer-span3">入库时间:</span>
+        <input type="text" class="footer-in3"/>
+        <span class="footer-span4">设备类型:</span>
+        <input type="text" class="footer-in4"/>
+        <input class="footer-in11" type="button" value="查询"/>
+        <input class="footer-in12" type="button" value="入库"/>
+        <table style="width="100%" border="0" cellpadding="0" cellspacing="0"" class="table-s">
+          <thead class="thead-t">
+            <tr>
+              <th>序号</th><th>设备机型</th><th>数量</th><th>系统</th><th>负责人</th><th>设备类型</th><th>所属公司</th>
+              <th>借入日期</th><th>归还日期</th><th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td><td>suzhou-DL</td><td>用例</td><td>10</td><td>TEST河北沧</td>
+              <td>TEST河北沧</td><td>TEST河北沧</td><td>TEST河北沧</td><td></td><td><input type="button" class="btn1" value="归还"><input type="button" class="btn1" value="出库"></td>
+            </tr>
+            <tr>
+              <td>2</td><td>suzhou-DL</td><td>基站</td><td>21</td><td>TEST河北沧</td>
+              <td>TEST河北沧</td><td>TEST河北沧</td><td>TEST河北沧</td><td></td><td><input type="button" class="btn1" value="归还"><input type="button" class="btn1" value="出库"></td>
+            </tr>
+            <tr>
+              <td>3</td><td>suzhou-DL</td><td>基站</td><td>21</td><td>TEST河北沧</td>
+              <td>TEST河北沧</td><td>TEST河北沧</td><td>TEST河北沧</td><td></td><td><input type="button" class="btn1" value="归还"><input type="button" class="btn1" value="出库"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="box">
+        <div class="box-hidden">
+          <p class="box-hidden-p1">入库信息</p>
+          <span class="box-hidden-span1">设备类型:</span>
+          <input type="text" class="box-hidden-input1">
+          <span class="box-hidden-span1">MAC:</span>
+          <input type="text" class="box-hidden-input1">
+          <span class="box-hidden-span2">设备机型:</span>
+          <input type="text" class="box-hidden-input2">
+          <span class="box-hidden-span3">IMEI1:</span>
+          <input type="text" class="box-hidden-input3">
+          <span class="box-hidden-span4">数量:</span>
+          <input type="text" class="box-hidden-input4">
+          <span class="box-hidden-span5">IMEI2:</span>
+          <input type="text" class="box-hidden-input5">
+          <span class="box-hidden-span6">所属公司:</span>
+          <input type="text" class="box-hidden-input6">
+          <span class="box-hidden-span7">MEID:</span>
+          <input type="text" class="box-hidden-input7">
+          <span class="box-hidden-span8">负责人:</span>
+          <input type="text" class="box-hidden-input8">
+          <span class="box-hidden-span9">系统:</span>
+          <input type="text" class="box-hidden-input9">
+          <span class="box-hidden-span10">入库时间:</span>
+          <input type="text" class="box-hidden-input10" value="2018.08.01">
+          <button type="button" class="box-hidden-btn1">确定</button>
+          <button type="button" class="box-hidden-btn2">取消</button>
+          <p class="box-hidden-p2">注:努比亚手机拨打*#06#移动设备为IMEI1,移动设备2为IMEI2;</p>
+        </div>
+        <div class="box-hidden-two">
+          <p class="box-hidden-two-p1">出库信息</p>
+          <span class="box-hidden-two-span1">项目名称:</span>
+          <input type="text" class="box-hidden-two-input1">
+          <span class="box-hidden-two-span2">负责人:</span>
+          <input type="text" class="box-hidden-two-input2">
+          <span class="box-hidden-two-span3">出库时间:</span>
+          <input type="text" class="box-hidden-two-input3" value=" 2018.08.01">
+          <button type="button" class="box-hidden-two-btn1">确定</button>
+          <button type="button" class="box-hidden-two-btn2">取消</button>
+        </div>
+      </div>
+  </body>
+</html>

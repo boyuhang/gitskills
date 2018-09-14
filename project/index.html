@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/master.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <script src="js/echarts.js" charset="utf-8"></script>
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <title>首页</title>
+    <style type="text/css">
+      html,body{margin:0;padding:0;}
+      .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+      .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+    </style>
+  </head>
+  <body>
+  <div>
+    <div class="nav">
+      <ul>
+        <li><img src="css/images/首页.png"><a href="#">首页</a></li>
+        <li><img src="css/images/项目统计.png"><a href="#">项目统计</a></li>
+        <li><img src="css/images/测试配置.png"><a href="#">测试配置</a></li>
+        <li><img src="css/images/账号.png"><a href="#">账号管理</a></li>
+        <li><img src="css/images/测试报告.png"><a href="#">测试报告</a></li>
+        <li><img src="css/images/设备管理.png"><a href="#">设备管理</a></li>
+        <li><img src="css/images/簇优化1.png"><a href="#">簇优化</a></li>
+        <li><img src="css/images/系统管理.png"><a href="#">系统管理</a></li>
+      </ul>
+    </div>
+    <div class="header">
+      <div class="search">
+        <form action="">
+          <img src="css/images/logo.png" class="img1">
+          <input class="text" type="text" value="请输入...">
+          <input class="btn" type="button">
+        </form>
+      </div>
+      <div class="header-r">
+        <span>welcome!</span>
+        <span>Like LY</span>
+        <span>系统管理员</span>
+        <a href="#" class="header-r-r">
+          <img src="css/images/退出.png" class="header-logout">
+          <span class="header-logout-font">退出</span>
+        </a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main-lf">
+        <span class="main-lf-span1">项目：</span>
+        <select class="main-lf-se1">
+          <option>音达上海移动杨浦</option>
+        </select>
+        <span class="main-lf-span2">地域：</span>
+        <select class="main-lf-se2">
+          <option>上海杨浦区</option>
+        </select>
+        <span class="main-lf-span3">运营商：</span>
+        <select class="main-lf-se3">
+          <option>移动</option>
+        </select>
+        <input type="button" class="main-lf-input"value="查询">
+        <div class="form-group">
+          <label for="startDate">时间：</label>
+          <input type="text" class="form-control" id="startDate" value="2018.08.16">
+        </div>
+        <p class="p1">&sim;</p>
+        <div class="form-group">
+          <input type="text" class="form-control" id="endDate" value="2018.08.16">
+        </div>
+      </div>
+      <div class="main-rt">
+        <input type="text" class="main-rt-input1" value="10">
+        <input type="text" class="main-rt-input2" value="10">
+        <input type="text" class="main-rt-input3" value="10">
+        <input type="text" class="main-rt-input4" value="10">
+        <img src="css/images/未测试.png" class="main-rt-img1"/>
+        <p class="main-rt-p1">未测试</p>
+        <img src="css/images/通过.png" class="main-rt-img2"/>
+        <p class="main-rt-p2">通过</p>
+        <img src="css/images/测试中.png" class="main-rt-img3"/>
+        <p class="main-rt-p3">测试中</p>
+        <img src="css/images/未通过.png" class="main-rt-img4"/>
+        <p class="main-rt-p4">未通过</p>
+      </div>
+    </div>
+    <div class="map" id="dituContent"></div>
+    <div class="chart1">
+      <span class="chart1-span1">项目单验总进度</span>
+      <div id="chart2"></div>
+      <span class="chart1-span2">75%</span>
+      <span class="chart1-span3">项目进度</span>
+      <span class="chart1-span4">200</span>
+      <span class="chart1-span5">单验通过数</span>
+      <span class="chart1-span6">400</span>
+      <span class="chart1-span7">单验通过数</span>
+      <span class="chart1-span8">800</span>
+      <span class="chart1-span9">项目总站数</span>
+      <div id="chart3"></div>
+      <span class="chart1-s1">75%</span>
+      <span class="chart1-s2">项目进度</span>
+      <span class="chart1-s3">200</span>
+      <span class="chart1-s4">单验通过数</span>
+      <span class="chart1-s5">400</span>
+      <span class="chart1-s6">单验通过数</span>
+      <span class="chart1-s7">800</span>
+      <span class="chart1-s8">项目总站数</span>
+      <div id="chart4"></div>
+      <span class="chart1-sp1">75%</span>
+      <span class="chart1-sp2">项目进度</span>
+      <span class="chart1-sp3">200</span>
+      <span class="chart1-sp4">单验通过数</span>
+      <span class="chart1-sp5">400</span>
+      <span class="chart1-sp6">单验通过数</span>
+      <span class="chart1-sp7">800</span>
+      <span class="chart1-sp8">项目总站数</span>
+      <div id="chart5"></div>
+      <span class="chart1-sn1">75%</span>
+      <span class="chart1-sn2">项目进度</span>
+      <span class="chart1-sn3">200</span>
+      <span class="chart1-sn4">单验通过数</span>
+      <span class="chart1-sn5">400</span>
+      <span class="chart1-sn6">单验通过数</span>
+      <span class="chart1-sn7">800</span>
+      <span class="chart1-sn8">项目总站数</span>
+    </div>
+    <div class="center">
+      <div class="center-lf" id="center-lf"></div>
+      <span class="center-lf-span">单验统计</span>
+      <div id="center-mid"></div>
+      <span class="center-mid-span">项目单验量分布</span>
+      <div class="center-rt">
+        <span class="center-rt-span">通过率</span>
+        <p class="center-p1">TOP1</p><p class="center-p3">上海移动</p>
+        <p class="center-p1">TOP2</p><p class="center-p3">云南移动</p>
+        <p class="center-p1">TOP3</p><p class="center-p3">江苏移动</p>
+        <p class="center-p2">TOP4</p><p class="center-p3">河南移动</p>
+        <p class="center-p2">TOP5</p><p class="center-p3">浙江移动</p>
+        <p class="center-p2">TOP6</p><p class="center-p3">郑州移动</p>
+      </div>
+      <div class="center-rt-one">
+        <div class="center-rt-one1"></div>
+      </div>
+      <div class="center-rt-two">
+        <div class="center-rt-two1"></div>
+      </div>
+      <div class="center-rt-th">
+        <div class="center-rt-th1"></div>
+      </div>
+      <div class="center-rt-four">
+        <div class="center-rt-four1"></div>
+      </div>
+      <div class="center-rt-fi">
+        <div class="center-rt-fi1"></div>
+      </div>
+      <div class="center-rt-six">
+        <div class="center-rt-six1"></div>
+      </div>
+    </div>
+    <div class="footer">
+      <span class="footer-span1">项目设备概括</span>
+      <div class="footer-1">
+        <p class="footer-1-p1">手机</p>
+        <p class="footer-1-p2">800台</p>
+      </div>
+      <div class="footer-2">
+        <p class="footer-1-p1">NB模组</p>
+        <p class="footer-1-p2">168</p>
+      </div>
+      <div class="footer-3">
+        <p class="footer-1-p1">小NB模组</p>
+        <p class="footer-1-p2">200</p>
+      </div>
+      <div class="footer-4">
+        <p class="footer-1-p1">某设备</p>
+        <p class="footer-1-p2">500</p>
+      </div>
+      <div class="footer-5">
+        <img src="css/images/红点.png">
+        <span class="footer-span2">手机</span>
+        <table>
+          <thead class="thead-f">
+            <tr>
+              <th>项目</th><th>负责人</th><th>C9</th><th>三星S7</th><th>三星S8</th><th>三星G5510</th><th>努比亚</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>上海移动</th><th>黄佳</th><th>12</th><th>12</th><th>12</th><th>12</th><th>12</th>
+            </tr>
+            <tr>
+              <th>云南移动</th><th>黄佳</th><th>10</th><th>10</th><th>10</th><th>10</th><th>10</th>
+            </tr>
+            <tr>
+              <th>江苏移动</th><th>黄佳</th><th>10</th><th>10</th><th>10</th><th>10</th><th>10</th>
+            </tr>
+            <tr>
+              <th>河南电信</th><th>黄佳</th><th>20</th><th>20</th><th>20</th><th>20</th><th>20</th>
+            </tr>
+            <tr>
+              <th>浙江移动</th><th>黄佳</th><th>10</th><th>10</th><th>10</th><th>10</th><th>10</th>
+            </tr>
+            <tr>
+              <th>郑州电信</th><th>黄佳</th><th>5</th><th>5</th><th>5</th><th>5</th><th>5</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</html>

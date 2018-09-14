@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <title>测试配置 </title>
+  </head>
+  <body>
+      <div class="nav">
+        <ul>
+          <li><img src="css/images/首页.png"><a href="#">首页</a></li>
+          <li><img src="css/images/项目统计.png"><a href="#">项目统计</a></li>
+          <li><img src="css/images/测试配置.png"><a href="#">测试配置</a></li>
+          <li><img src="css/images/账号.png"><a href="#">账号管理</a></li>
+          <li><img src="css/images/测试报告.png"><a href="#">测试报告</a></li>
+          <li><img src="css/images/设备管理.png"><a href="#">设备管理</a></li>
+          <li><img src="css/images/簇优化1.png"><a href="#">簇优化</a></li>
+          <li><img src="css/images/系统管理.png"><a href="#">系统管理</a></li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="search">
+          <form action="">
+            <img src="css/images/logo.png" class="img1">
+            <input class="text" type="text" value="请输入...">
+            <input class="btn" type="button">
+          </form>
+        </div>
+        <div class="header-r">
+          <span>welcome!</span>
+          <span>Like LY</span>
+          <span>系统管理员</span>
+          <a href="#" class="header-r-r">
+            <img src="css/images/退出.png" class="header-logout">
+            <span class="header-logout-font">退出</span>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <li><a href="#">FTP服务器</a></li>
+        <li><a href="#">报告模板导入</a></li>
+        <li><a href="#">测试用例</a></li>
+        <li><a href="#">基站测试设置</a></li>
+        <li><a href="#">Sihecker工参导入</a></li>
+        <li><a href="#">数据库管理</a></li>
+      </div>
+      <div class="footer">
+        <span class="footer-span1">测试用例名称:</span>
+        <input type="text" class="footer-in1"/>
+        <span class="footer-span2">场景名称:</span>
+        <input type="text" class="footer-in3"/>
+        <span class="footer-span3">用例报告模板:</span>
+        <input type="text" class="footer-in-1"/>
+        <input class="footer-in-6" type="button" value="查询"/>
+        <input class="footer-in-7" type="button" value="新增"/>
+        <table style="width="100%" border="0" cellpadding="0" cellspacing="0"" class="table-r">
+          <thead class="thead-r">
+            <tr>
+              <th>序号</th><th>测试用例名称</th><th>场景名称</th><th>循环次数</th>
+              <th>检查条件</th><th>用例报告模板</th><th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="tr1">
+              <td>1</td><td>suzhou-DL</td><td>用例</td><td>10</td><td>RSRP:MinValue=,MaxValue=;SINR:MinValue=,MaxValue=;</td>
+              <td>TEST河北沧州移动DTFTPDL</td><td class="tr-td1"><img src="css/images/复制.png"><img src="css/images/修改.png"><img src="css/images/删除.png"></td>
+            </tr>
+            <tr>
+              <td>2</td><td>suzhou-DL</td><td>用例</td><td>主报告</td><td>RSRP:MinValue=,MaxValue=;SINR:MinValue=,MaxValue=;</td>
+              <td>TEST河北沧州移动DTFTPDL</td><td class="tr-td1"><img src="css/images/复制.png"><img src="css/images/修改.png"><img src="css/images/删除.png"></td>
+            </tr>
+            <tr>
+              <td>3</td><td>suzhou-DL</td><td>122.229.28.110</td><td>21</td><td>RSRP:MinValue=,MaxValue=;SINR:MinValue=,MaxValue=;</td>
+              <td>TEST河北沧州移动DTFTPDL</td><td class="tr-td1"><img src="css/images/复制.png"><img src="css/images/修改.png"><img src="css/images/删除.png"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="box">
+        <div class="box-cs1">
+          <p class="box-jz-p1">新增测试用例</p>
+          <span class="box-cs1-span1">模板名称:</span>
+          <input type="text" class="box-cs1-input1">
+          <span class="box-cs1-span2">场景名称:</span>
+          <input type="text" class="box-cs1-input2">
+          <span class="box-cs1-span3">循环次数:</span>
+          <input type="text" class="box-cs1-input3">
+          <span class="box-cs1-span4">环境检查条件</span>
+          <button type="button" class="box-cs1-btn1">添加</button>
+          <div class="box-cs1-div1" contenteditable="true"></div>
+          <span class="box-cs1-span5">用例报告模板:</span>
+          <select class="box-cs1-se1">
+            <option></option>
+          </select>
+          <button type="button" class="box-cs1-btn2">浏览</button>
+          <table class="box-cs1-table1">
+            <thead class="thead-c">
+              <tr>
+                <th>次序</th><th>测试项目</th><th>上移/下移</th><th>编辑</th>
+              </tr>
+              <tr class="thead-c-tr-td1">
+                <td>1</td><td>Attach</td><td><img src="css/images/上移.png"><img src="css/images/下移.png"></td>
+                <td><img src="css/images/修改.png"><img src="css/images/删除.png"></td>
+              </tr>
+              <tr class="thead-c-tr-td1">
+                <td>2</td><td>Attach</td><td><img src="css/images/上移.png"><img src="css/images/下移.png"></td>
+                <td><img src="css/images/修改.png"><img src="css/images/删除.png"></td>
+              </tr>
+            </thead>
+          </table>
+          <button type="button" class="box-cs1-btn3">添加项目</button>
+          <button type="button" class="box-cs1-btn4">保存</button>
+          <button type="button" class="box-cs1-btn5">取消</button>
+        </div>
+      </div>
+      <div class="box1">
+        <div class="box1-cs">
+          <p class="box-hidden-p1">添加项目</p>
+          <input type="button" value="普通" class="box1-cs-input1">
+          <input type="button" value="串行" class="box1-cs-input2">
+          <input type="button" value="并行" class="box1-cs-input2">
+          <div class="box1-cs1">
+            <input type="button" value="测试项目属性配置" class="box1-cs1-input1">
+            <p class="box1-cs1-p1">基本项目</p>
+            <span class="box1-cs1-span1">项目</span>
+            <select class="box1-cs1-se1">
+              <option>Attach</option>
+            </select>
+            <span class="box1-cs1-span2">保持时间</span>
+            <input type="text" value=" 3" class="box1-cs1-input2">
+            <p class="box1-cs1-p2">辅助信息</p>
+            <input type="button" value="设定开始条件" class="box1-cs1-input3">
+            <input type="button" value="设定结束条件" class="box1-cs1-input4">
+            <span class="box1-cs1-span3">开始条件</span>
+            <input type="text" class="box1-cs1-input5">
+            <span class="box1-cs1-span4">结束条件</span>
+            <input type="text" class="box1-cs1-input6">
+            <p class="box1-cs1-p3">辅助信息</p>
+            <input type="button" value="设定自定义参数" class="box1-cs1-input7">
+            <button type="button" class="box1-cs1-btn1">确认</button>
+            <button type="button" class="box1-cs1-btn2">返回</button>
+          </div>
+        </div>
+        <div class="box1-cs2">
+          <p class="box-jz-p1">添加检查环境条件</p>
+          <span class="box1-cs2-span1">+</span>
+          <select class="box1-cs2-se1">
+            <option>RSRP</option>
+          </select>
+            <input type="text" class="box1-cs2-input1">
+            <input type="text" class="box1-cs2-input1">
+            <input type="text" class="box1-cs2-input1">
+            <img src="css/images/删除.png" class="box1-cs2-img1"/>
+            <select class="box1-cs2-se2">
+              <option>RSRP</option>
+            </select>
+              <input type="text" class="box1-cs2-input1">
+              <input type="text" class="box1-cs2-input1">
+              <input type="text" class="box1-cs2-input1">
+              <img src="css/images/删除.png" class="box1-cs2-img1"/>
+              <button type="button" class="box1-cs2-btn1">保存</button>
+              <button type="button" class="box1-cs2-btn2">取消</button>
+        </div>
+      </div>
+  </body>
+</html>
