@@ -77,9 +77,11 @@ body{
   margin-top: 20px;
   color: #fff;
   background-color: rgb(84, 194, 254);
+  cursor: pointer;
 }
 .tr-td1 img{
   margin-left: 20px;
+  cursor: pointer;
 }
 .footer-in-1{
   width: 160px;
@@ -112,7 +114,7 @@ body{
   top: -36px;
   margin-left: 250px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -123,7 +125,7 @@ body{
   top: -36px;
   margin-left: 30px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -154,7 +156,7 @@ table{
   top: 20px;
   margin-left: 340px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -165,7 +167,7 @@ table{
   top: 20px;
   margin-left: 30px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -240,6 +242,7 @@ table{
   color: #8B8B8B;
   margin-left: 680px;
   margin-top: -45px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-in-gong3{
   position: relative;
@@ -248,7 +251,7 @@ table{
   top: -22px;
   margin-left: 240px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -259,7 +262,7 @@ table{
   top: -57px;
   margin-left: 1340px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -274,7 +277,7 @@ table{
   top: 23px;
   margin-left: 230px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -285,7 +288,7 @@ table{
   top: 23px;
   margin-left: 30px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -306,7 +309,7 @@ table{
   margin-left: 1450px;
   font-weight: bold;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -318,7 +321,7 @@ table{
   margin-left: 1500px;
   font-weight: bold;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -350,6 +353,7 @@ table{
   margin-top: 20px;
   top: 30px;
   left: 180px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-xz-p2{
@@ -391,6 +395,7 @@ table{
   position: relative;
   top: -130px;
   left: 476px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn3{
@@ -402,6 +407,7 @@ table{
   position: relative;
   top: -290px;
   left: 770px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn4 {
@@ -413,6 +419,7 @@ table{
   position: relative;
   top: -451px;
   left: 1070px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn5{
@@ -425,6 +432,7 @@ table{
   margin-top: 20px;
   top: 30px;
   left: 200px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn6{
@@ -436,6 +444,7 @@ table{
   position: relative;
   top: -130px;
   left: 506px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn7{
@@ -447,6 +456,7 @@ table{
   position: relative;
   top: -290px;
   left: 800px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn8{
@@ -458,6 +468,7 @@ table{
   position: relative;
   top: -451px;
   left: 1110px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn9{
@@ -470,6 +481,7 @@ table{
   margin-top: 20px;
   top: 30px;
   left: 210px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn10{
@@ -481,6 +493,7 @@ table{
   position: relative;
   top: -130px;
   left: 506px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn11{
@@ -492,6 +505,7 @@ table{
   position: relative;
   top: -290px;
   left: 810px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 .footer-in-btn12{
@@ -503,6 +517,7 @@ table{
   position: relative;
   top: -451px;
   left: 1115px;
+  cursor: pointer;
   background-color: rgb(87, 174, 254);
 }
 
@@ -513,7 +528,7 @@ table{
   top: -70px;
   margin-left: 1558px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -532,6 +547,7 @@ table{
   float: left;
   font-size: 22px;
   color: #fff;
+  cursor: pointer;
   text-align: center;
 }
 .footer-head-lf2{
@@ -541,6 +557,7 @@ table{
   float: left;
   font-size: 22px;
   color: #8B8B8B;
+  cursor: pointer;
   text-align: center;
 }
 .footer-head-lf1 span{
@@ -634,6 +651,7 @@ table{
   margin-left: -110px;
   position: relative;
   top: 88px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-lf-se2{
   width: 160px;
@@ -641,6 +659,7 @@ table{
   margin-left: -164px;
   position: relative;
   top: 138px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-lf-input1{
   width: 140px;
@@ -739,6 +758,8 @@ table{
   margin-left: 10px;
   position: relative;
   top: 88px;
+  color: #8B8B8B;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-lf-span5{
   width: 80px;
@@ -856,6 +877,7 @@ table{
   margin-left: -186px;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
   background-color: rgb(87, 172, 254);
 }
 .footer-admin-lf-input13{
@@ -867,6 +889,7 @@ table{
   margin-left: 50px;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
   background-color: rgb(162, 162, 162);
 }
 .footer-admin-lf-input14{
@@ -878,6 +901,7 @@ table{
   top: 236px;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
   background-color: rgb(87, 172, 254);
 }
 .footer-admin-lf-input15{
@@ -890,6 +914,7 @@ table{
   top: 236px;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
   background-color: rgb(162, 162, 162);
 }
 .footer-admin-rt{
@@ -989,6 +1014,7 @@ table{
   position: relative;
   top: 290px;
   margin-left: 20px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-rt-span6{
   width: 90px;
@@ -1006,6 +1032,7 @@ table{
   position: relative;
   top: 340px;
   margin-left: 20px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-rt-span7{
   width: 90px;
@@ -1022,6 +1049,7 @@ table{
   border: 1px solid #8B8B8B;
   position: relative;
   top: 390px;
+  border: 1px solid rgb(162, 162, 162);
   margin-left: 20px;
 }
 .footer-admin-rt-span8{
@@ -1040,6 +1068,7 @@ table{
   position: relative;
   top: 440px;
   margin-left: 20px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-rt-input4{
   width: 24px;
@@ -1064,6 +1093,7 @@ table{
   margin-left: 280px;
   position: relative;
   top: 440px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-rt-input5{
   width: 24px;
@@ -1088,6 +1118,7 @@ table{
   margin-left: 280px;
   position: relative;
   top: 452px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-rt-input6{
   width: 24px;
@@ -1112,6 +1143,7 @@ table{
   margin-left: 280px;
   position: relative;
   top: 452px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-rt-input7{
   width: 24px;
@@ -1136,6 +1168,7 @@ table{
   margin-left: 280px;
   position: relative;
   top: 452px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-rt-input8{
   width: 24px;
@@ -1160,6 +1193,7 @@ table{
   margin-left: 280px;
   position: relative;
   top: 452px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-admin-rt-input9{
   width: 80px;
@@ -1170,6 +1204,7 @@ table{
   top: 636px;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
   background-color: rgb(87, 172, 254);
 }
 .footer-admin-rt-input10{
@@ -1181,6 +1216,7 @@ table{
   top: 636px;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
   background-color: rgb(162, 162, 162);
 }
 .footer-admin-bo{
@@ -1228,7 +1264,8 @@ table{
   font-size: 18px;
   color: #fff;
   font-weight: bold;
-  position: relative;=
+  position: relative;
+  cursor: pointer;
 }
 .footer-admin-bo-in1{
   margin-left: 160px;
@@ -1371,7 +1408,7 @@ table{
   margin-left: 1500px;
   font-weight: bold;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -1384,7 +1421,7 @@ table{
   margin-left: 1350px;
   font-weight: bold;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -1396,7 +1433,7 @@ table{
   margin-left: 1500px;
   font-weight: bold;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -1408,7 +1445,7 @@ table{
   margin-left: 1530px;
   font-weight: bold;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -1444,6 +1481,7 @@ table{
 }
 .td5{
   color: #57ACFE;
+  cursor: pointer;
 }
 
 .footer-danyan-se1{
@@ -1454,6 +1492,7 @@ table{
   margin-left: 20px;
   position: relative;
   top: 28px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .footer-span-danyan1{
   width: 87px;
@@ -1479,7 +1518,7 @@ table{
   top: -22px;
   margin-left: 140px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
   border-radius: 10px;
@@ -1491,7 +1530,7 @@ table{
   top: -57px;
   margin-left: 1200px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
   border-radius: 10px;
@@ -1503,7 +1542,7 @@ table{
   top: -92px;
   margin-left: 1380px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
   border-radius: 10px;
@@ -1518,7 +1557,7 @@ table{
   top: 92px;
   margin-left: 540px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
   border-radius: 10px;
@@ -1530,7 +1569,7 @@ table{
   top: -37px;
   margin-left: 1200px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
   border-radius: 10px;
@@ -1542,7 +1581,7 @@ table{
   top: -72px;
   margin-left: 1380px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
   border-radius: 10px;
@@ -1575,7 +1614,7 @@ table{
 .footer-xz select{
   width: 300px;
   height: 37px;
-  border: 1px solid #8B8B8B;
+  border: 1px solid rgb(162, 162, 162);
   position: relative;
 }
 .footer-xz-span1{
@@ -1655,6 +1694,7 @@ table{
   height: 37px;
   font-size: 24px;
   color: #fff;
+  cursor: pointer;
   position: relative;
 }
 .footer-xz-btn1{

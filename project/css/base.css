@@ -135,6 +135,7 @@ textarea {
   top: 29px;
   bottom: 28px;
   right: 735px;
+  cursor: pointer;
   background: url(images/搜索.png) no-repeat;
 }
 .header-r{
@@ -293,7 +294,7 @@ textarea {
   top: -36px;
   margin-left: 30px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -304,7 +305,7 @@ textarea {
   top: -36px;
   margin-left: 30px;
   font-size: 20px;
-  background-color: rgb(5, 143, 222);
+  background-color: rgb(87, 174, 254);
   color: #fff;
   cursor: pointer;
 }
@@ -373,6 +374,7 @@ table{
   position: relative;
   left: -20px;
   top: 28px;
+  cursor: pointer;
 }
 .content-span1{
   font-size: 22px;
@@ -391,6 +393,7 @@ table{
   position: relative;
   margin-left: 6px;
   top: 44px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .content-lf{
   float: left;
@@ -543,7 +546,8 @@ table{
   margin-left: 160px;
   margin-top: -134px;
   color: #fff;
-  background-color: rgb(5, 143, 222);
+  cursor: pointer;
+  background-color: rgb(87, 174, 254);
 }
 .content-in3{
   width: 100px;
@@ -554,7 +558,8 @@ table{
   margin-top: -134px;
   margin-left: 60px;
   color: #fff;
-  background-color: rgb(5, 143, 222);
+  cursor: pointer;
+  background-color: rgb(87, 174, 254);
 }
 /* the style of content*/
 
@@ -635,7 +640,8 @@ table{
   margin-left: 1460px;
   margin-top: -205px;
   color: #fff;
-  background-color: rgb(5, 143, 222);
+  cursor: pointer;
+  background-color: rgb(87, 174, 254);
 }
 .bottom-p1{
   width: 50;
@@ -652,6 +658,7 @@ table{
   position: relative;
   margin-left: -150px;
   top: -75px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .bottom-se1{
   width: 120px;
@@ -659,6 +666,7 @@ table{
   position: relative;
   margin-left: -130px;
   top: -120px;
+  border: 1px solid rgb(162, 162, 162);
 }
 .bottom-p2{
   width: 50;
